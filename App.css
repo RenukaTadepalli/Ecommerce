@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image{
+  background-image: url("https://img.freepik.com/premium-vector/blue-white-background-with-picture-sky-with-clouds_611135-15038.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.item:hover{
+  transform: scale(1.07);
+  transition: all 0.3s;
+}
+.button1{
+  background-color: orange;
+  padding: 15px 60px;
+  margin-left: 15px;
+}
+.button2{
+  background-color: orangered;
+  padding: 15px 70px;
+  margin-left: 5px;
+}
+.product{
+  box-shadow: 0 0 10px black;
+}
+.login{
+  background-image: url("https://img.freepik.com/premium-photo/purple-wallpaper-with-purple-background-pattern-called-purple_926199-3387463.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.signup{
+  background-image: url("https://t4.ftcdn.net/jpg/05/45/53/29/360_F_545532903_psfbIMK388ESjpZyBNczdzCbvxu9757B.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.profile{
+  background-image: url("https://asset.gecdesigns.com/img/background-templates/dark-blue-background-with-the-diamond-pattern-template-sr06012408-1704699724568-cover.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* .profile-pic{
+  border-radius: 10%;
+ 
+} */
+ .orders{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+ 
